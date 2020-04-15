@@ -449,7 +449,7 @@ function formSubmit() {
 
 	var formElement = myForm;
 	var request = new XMLHttpRequest();
-	request.open("POST", "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdO2qxb2C8yrxLt0nuY8m1CNirJgR5lnUCjuywRc75Nmlrm0Q/formResponse");
+	request.open("POST", "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdGAf0MX_s_V5yE7NMI8Xt-reG4ZNvJQ01nvPFXioQrKs92eg/formResponse" );
 	request.send(new FormData(formElement));
 
 	myForm.parentNode.removeChild( myForm );
